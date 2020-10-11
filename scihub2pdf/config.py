@@ -1,9 +1,9 @@
 # chrome driver path
 driver_path = 'C:\\Portable\\chromedriver_win32\\chromedriver.exe'
 # existed pdf download location
-location = '.\\download'
+location = '.\\download\\'
 # scihub domain
-domain_scihub = "http://sci-hub.st/"
+domain_scihub = "http://sci-hub.se/"
 
 # default xpath for html elements
 xpath_captcha = "//*[@id='captcha']"
