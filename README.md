@@ -2,15 +2,18 @@
 
 Many thanks to [bibcure](https://github.com/bibcure) for the original repository: https://github.com/bibcure/scihub2pdf
 
+## :no_entry: Disclaimer :no_entry:
+**I am not responsible for the illegitimate use of this tool. For example, the download of non-open-access papers or even those if this method is not allowed by the editors.**
 
-## Install and config
+
+## Install and Config
 ```bash
 python install -r requirements.txt
 ```
 
 If you want  to download files from scihub you will need to 
-1. download [chromwdriver](https://chromedriver.chromium.org/)
-2. modify `driver_path` value in the `config.py`
+1. download [chromwdriver](https://chromedriver.chromium.org/), make sure the version same with the Google Chrome browser you used.
+1. modify `driver_path` value in the `config.py`
 
 The given title will be used as the pdf filename. Please note that the character ':' will be replaced by the
  character " -" because of the restricts of filename in Windows.
@@ -18,7 +21,7 @@ The given title will be used as the pdf filename. Please note that the character
 You can modify those configs in `config.py` if needed
 
 
-## Features and how to use
+## Features and How to Use
 
 Given a bibtex file
 ```
